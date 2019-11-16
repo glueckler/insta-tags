@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>insta-tags</title>
     <meta name="description" content="Quickly generate instagram tags">
     <meta name="author" content="Dean Glueckler">
@@ -13,19 +14,22 @@
 </head>
 
 <style>
-    .content {
-        height: 100vh;
-        width: 100vw;
+    body {
         background: honeydew;
+    }
+    .content {
+        margin: 4em 0;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 </style>
 
 <body>
     <div class="content">
         <button id="bbb">copy tags</button>
+        <div id="checkboxes"></div>
     </div>
 </body>
 <script src="js/app.js"></script>
