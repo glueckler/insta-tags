@@ -5,7 +5,7 @@ const cbs = [
     tags: ['#sleepythecreator', '#sanctuaryluv', '#alians', '#fullmoonmusic']
   },
   {
-    heada: 'low competition',
+    heada: 'lifestyle1',
     firstTags: true,
     tags: [
       "#musicwriter",
@@ -98,7 +98,7 @@ const cbs = [
     ]
   },
   {
-    heada: 'low comp3',
+    heada: 'lifestyle2',
     firstTags: true,
     tags: [
       "#mylifeisbeautiful",
@@ -422,6 +422,5 @@ document.getElementById('bbb').addEventListener('click', handleBBBClick);
 document.body.addEventListener('click', function updateCount() {
   var tagCheckboxes = document.querySelectorAll('.tag-cb');
   tagCheckboxes = Array.from(tagCheckboxes).filter(cb => cb.checked);
-  debugger
   document.getElementById('count').innerText = tagCheckboxes.length;
 })
